@@ -1,0 +1,143 @@
+.answer {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.answer-title {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-size: 54px;
+    line-height: 65px;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #333333;
+}
+
+.answer-title span {
+    color: #6933DC;
+}
+
+.answer-question-title {
+    margin-top: 60px;
+}
+
+.answer-pre-title {
+    display: flex;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.answer-pre-title-one {
+    margin-right: 15px;
+    color: #DCDCF3;
+    text-decoration: none;
+}
+
+.answer-pre-title-one:hover {
+    text-decoration: underline;
+}
+
+.answer-pre-title-two {
+    margin-left: 20px;
+    color: #6933DC;
+
+}
+
+.answer-pre-title-icon img {
+    position: absolute;
+    bottom: 2px;
+}
+
+
+.answer-question-title {
+    font-size: 36px;
+    line-height: 43px;
+    font-family: 'Museo Sans Cyrl Bold', sans-serif;
+}
+
+.answer-question-title span {
+    color: #6933DC;
+}
+
+.answer-question-options {
+    margin-top: 58px;
+}
+
+.answer-question-option {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.answers-question-text {
+    font-family: "Museo Sans Cyrl", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.answer-question-option label {
+    cursor: pointer;
+}
+
+.answers-question-circle {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #6933DC;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-right: 7px;
+}
+
+.answer-return {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+}
+
+.answer-return a {
+    font-size: 17px;
+    line-height: 20px;
+    color: #6933DC;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.answer-return a:hover {
+    text-decoration: underline;
+}
+
+.answer-return a img {
+    margin-left: 13px;
+}
+
+.human {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 60px;
+}
+
+.human span {
+    color: #6933DC;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+}
+
+.correct .answers-question-circle {
+    border: 6px solid green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.incorrect .answers-question-circle {
+    border: 6px solid red;
+}
+
+
